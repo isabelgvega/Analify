@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '46f0d61d75dba353dab831855fa0d48a30d81a20',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '46f0d61d75dba353dab831855fa0d48a30d81a20',
+            'dev_requirement' => false,
+        ),
+        'j7mbo/twitter-api-php' => array(
+            'pretty_version' => '1.0.6',
+            'version' => '1.0.6.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../j7mbo/twitter-api-php',
+            'aliases' => array(),
+            'reference' => '443d22c53d621b3cc6b7e0c56daa60c5ada033f7',
+            'dev_requirement' => false,
+        ),
+        'jwilsson/spotify-web-api-php' => array(
+            'pretty_version' => '2.12.0',
+            'version' => '2.12.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jwilsson/spotify-web-api-php',
+            'aliases' => array(),
+            'reference' => '8b4f8c4de73be9357675627ff2ee63a4d6e55eb7',
+            'dev_requirement' => false,
+        ),
+    ),
+);
